@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+ipykernel = "*"
+sagemaker = "*"
+torch = "*"
+dataclasses-json = "*"
+
+[dev-packages]
+black = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.8"
