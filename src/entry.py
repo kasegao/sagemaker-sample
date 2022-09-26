@@ -38,7 +38,6 @@ def parse_args():
     parser.add_argument("--model_dir", type=str, default=os.environ["SM_MODEL_DIR"])
 
     # Artifacts, /opt/ml/output/data
-    parser.add_argument("--sagemaker_s3_output", type=str, default="s3://sagemaker-ap-northeast-1-455189106618/")
     parser.add_argument(
         "--output_dir", type=str, default=os.environ["SM_OUTPUT_DATA_DIR"]
     )
